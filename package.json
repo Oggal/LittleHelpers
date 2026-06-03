@@ -1,0 +1,12 @@
+{
+  "name": "oggal.little-helpers",
+  "version": "0.1.0",
+  "displayName": "Little Helpers",
+  "description": "Small Utilities for Unity Developers. To contribute, fork the repository, create a feature branch, make your changes, commit clearly, and open a pull request describing what changed and why.",
+  "dependencies": {},
+  "author": {
+    "name": "Oggal",
+    "email": "philip.dan.taylor@example.com",
+    "url": "https://www.github.com/Oggal"
+  }
+}
