@@ -8,12 +8,12 @@ To install this package in Unity via the Package Manager:
 2. Click the "+" button in the top-left corner.
 3. Choose "Add package from git URL...".
 4. Paste the following URL:
-   https://github.com/Example.com/LittleHelpers.git
+   https://github.com/Oggal/LittleHelpers.git
 5. Click "Add".
 
 You can also use this form if your repository is hosted under a different branch or tag:
 
-https://github.com/Example.com/LittleHelpers.git#main
+https://github.com/Oggal/LittleHelpers.git#master
 
 ## Contributing
 
