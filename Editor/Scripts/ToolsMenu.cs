@@ -17,7 +17,7 @@ public static class ToolsMenu
 
         string projectFolder = Path.GetFileNameWithoutExtension(Application.dataPath);
         string path = Path.Combine(basePath, projectFolder);
-        //Directory.CreateDirectory(path);
+        Directory.CreateDirectory(path);
 
 
         EditorUtility.RevealInFinder(path);
