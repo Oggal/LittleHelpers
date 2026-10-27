@@ -22,4 +22,12 @@ public static class ToolsMenu
 
         EditorUtility.RevealInFinder(path);
     }
+    [MenuItem("Tools/Little Helpers/Take Screenshot", false, 1)]
+    private static void TakeScreenshot()
+    {
+        Directory.CreateDirectory(Application.dataPath + "/ScreenShots/");
+        ScreenCapture.CaptureScreenshot(Application.dataPath +
+            "/ScreenShots/" + ((System.DateTime.Today.ToShortDateString()).Replace("/", "-"))
+            + "_" + ((System.DateTime.Now.ToFileTimeUtc().ToString()).Replace(" ", "").Replace(":", "")) + ".png", 1);
+    }
 }
